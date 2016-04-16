@@ -22,7 +22,7 @@ public class QuantityOfOddElements {
 		for (int i=0;i<mas.length;i++){								// Print the original array
 		mas[i]=rand.nextInt(10);
 		System.out.print(" "+mas[i]+";");
-		if(mas[i]/2==0){
+		if(mas[i]%2-1==0){
 			oddElem++;
 		}
 		
