@@ -27,7 +27,7 @@ public static void main(String[] args) {
 	System.out.println(b);
 
 	if (b.isExists(r5)) {
-		System.out.println("Record " + r5 + " in the book");
+		System.out.println("Record ###" + r5 + " in the book");
 	}
 
 	b.add(r5);
@@ -35,6 +35,9 @@ public static void main(String[] args) {
 	if (b.isExists(r5)) {
 		System.out.println("Record " + r5 + " in the book");
 	}
+	
+	System.out.println(b);
+	
 	}
 }
 
